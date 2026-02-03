@@ -1,0 +1,143 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color:#016f4c;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sidebar a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+.sidebar a.active {
+  color: #44a058;
+}
+.content { 
+  padding: 10px;
+  width: 100%;
+  margin-left: 250px;
+}
+.user{
+    font-size: 40px;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.card {
+  border-radius: 12px;
+  border-left: 4px solid #44a058;
+}
+.card h6{
+    font-weight: bold;
+  color: #00467e;
+}
+.card h2 {
+  font-weight: bold;
+  color: #00467e;
+}
+.newUser{
+  background-color:#016f4c;
+  color: white;
+}
+.newUser:hover{
+  background-color:transparent;
+  color: #016f4c;
+}
+.table th{
+   color: #016f4c;
+}
+.navbar{
+    color:#016f4c;
+}
+.image {
+    border-radius: 50px;
+}
+hr{
+    background-color: #016f4c;
+    opacity: 1;
+}
+.chart h3{
+     color:#016f4c;
+}
+canvas {
+  padding: 30px;
+}
+table tr td{
+    vertical-align: middle;
+}
+td button{
+    margin: 5px; 
+}
+td button i {
+    font-size: 20px;
+}
+.modal-header{
+    background: #016f4c;
+    color: #fff;
+}
+.modal-body form .inputField{
+    border-left: 5px groove #016f4c;
+    padding-left: 20px;
+    background-color: #f2f2f2;
+}  
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}  
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+}
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+ form .inputField > div input{
+      width: 75%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      background: transparent;
+      border: 1px groove grey;
+      border-radius: 10px;
+ }
+ .modal-footer .submit{
+    font-size: 18px;
+    background-color: #016f4c;
+ }
+
+ #readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+ }
+ .btn-success:hover{
+  background-color: #ffffff;
+  color: #016f4c;
+  border-color: #016f4c;
+ }
+ .btn:hover{
+  background-color: #ffffff;
+  color: #016f4c;
+  border-color: #016f4c;
+ }
+footer{
+  background-color: #016f4c;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  text-align: center;
+  font-size: 14px;
+  height: 10vh;
+  position: fixed;
+}
