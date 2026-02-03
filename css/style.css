@@ -141,3 +141,32 @@ footer{
   height: 10vh;
   position: fixed;
 }
+@media (max-width: 992px) {
+  .sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    transition: 0.3s;
+    z-index: 1000;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 15px;
+  }
+}
+@media (max-width: 576px) {
+  form .inputField > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  form .inputField > div input {
+    width: 100%;
+    margin-top: 5px;
+  }
+}

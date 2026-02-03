@@ -54,28 +54,28 @@
 <!-- Static Cards -->
 <section>
 <div class="row mt-5 pt-3" id="statsSection">
-  <div class="col">
+  <div class="col-12 col-sm-6 col-lg-3 mb-3">
     <div class="card shadow text-center p-3">
       <h6 class="text">Crops</h6>
       <h2 id="statCrops">0</h2>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col-12 col-sm-6 col-lg-3 mb-3">
     <div class="card shadow text-center p-3">
       <h6 class="text">Farms</h6>
       <h2 id="statFarms">0</h2>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col-12 col-sm-6 col-lg-3 mb-3">
     <div class="card shadow text-center p-3">
       <h6 class="text">Farmers</h6>
       <h2 id="statFarmers">0</h2>
     </div>
   </div>
 
-  <div class="col">
+  <div class="col-12 col-sm-6 col-lg-3 mb-3">
     <div class="card shadow text-center p-3">
       <h6 class="text">Total Yield</h6>
       <h2 id="statYield">0</h2>
@@ -86,19 +86,23 @@
 
 <!-- Charts -->
 <section>
-<div class="chart mt-5">
-<div class="d-flex" style="width: 100%; height: 220px;">
-<div>
-<h3 class="fw-bold">BarChart</h3>
-<canvas id="barChart"></canvas></div>
-<div>
-<h3 class="fw-bold">PieChart</h3>
-<canvas id="pieChart"></canvas></div>
+<div class="row">
+  <div class="col-12 col-lg-6 mb-4" style="height: 300px;">
+    <h3 class="fw-bold">BarChart</h3>
+    <canvas id="barChart"></canvas>
+  </div>
+  <div class="col-12 col-lg-6 mb-4" style="height: 300px;">
+    <h3 class="fw-bold">PieChart</h3>
+    <canvas id="pieChart"></canvas>
+  </div>
 </div>
-<div class="mt-5" style="width: 50%; height: 220px;">
-<h3 class="fw-bold">LineChart</h3>
-<canvas id="lineChart"></canvas></div>
-</div>
+
+<div class="row">
+  <div class="col-12 col-lg-6" style="height: 300px;">
+    <h3 class="fw-bold">LineChart</h3>
+    <canvas id="lineChart"></canvas>
+  </div>
+</div>      
 </section>
 
 <!-- Crops Table -->
@@ -110,7 +114,7 @@
 </div>
 </div>
 <div class="row">
-<div class="col-12">
+<div class="col-12 table-responsive">
     <table class="table table-striped table-hover mt-3 text-center table-bordered">
     <thead>
     <tr>
